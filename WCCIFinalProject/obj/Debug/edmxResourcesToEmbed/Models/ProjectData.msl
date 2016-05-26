@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjectDataModelStoreContainer" CdmEntityContainer="ProjectDataEntities">
+    <EntitySetMapping Name="ProjectDatas">
+      <EntityTypeMapping TypeName="ProjectDataModel.ProjectData">
+        <MappingFragment StoreEntitySet="ProjectData">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="ImageLink" ColumnName="ImageLink" />
+          <ScalarProperty Name="GitHub" ColumnName="GitHub" />
+          <ScalarProperty Name="Collaborators" ColumnName="Collaborators" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

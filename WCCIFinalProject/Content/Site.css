@@ -1,0 +1,252 @@
+﻿body, html {
+    height: 100%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/* FRONT PAGE */
+.front-page {
+    background-image: url('Images/editedBack.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 36px;
+
+}
+
+ .homeH1{
+     border-top: 1px solid #eec77a;
+    font-size:80px;
+    margin-bottom:-10px;
+    font-family:Julius Sans One;
+}
+
+ .section{
+     margin-top:75px;
+     padding-right:10%;
+     color:white;
+}
+ 
+
+      
+ 
+
+ .aboutH1{
+     font-size:55px;
+     color:white;
+     font-family:Julius Sans One;
+     
+ }
+
+ .contactH1{
+     font-size:65px;
+     font-family:Julius Sans One;
+     
+ }
+
+ 
+.coverPhoto{
+    margin-top:10%;
+    border-radius:50%;
+    width: 200px;
+    
+    border:2px solid white;
+    opacity: 0.9;
+   }
+
+div.cover.inner {
+    width:60%;
+    margin-left:20%;
+}
+
+.coverPhoto:hover{
+    opacity:1;
+}
+
+.aboutContain{
+    /*border-bottom:1px solid white;*/
+    margin-top:5%;
+}
+
+.aboutContain p {
+    text-align: justify;
+}
+
+
+
+.aboutPhoto{
+    margin-top:37%;
+    border-radius:50%;
+    width: 250px;
+    border:2px solid white;
+    opacity: 0.9;
+}
+
+div.about.inner {
+    width:60%;
+    margin-left:20%;
+}
+
+.aboutPhoto:hover{
+    opacity:1;
+}
+
+/* ABOUT PAGE */
+
+.aboutBackground {
+    
+    background-image: url('Images/about.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.ProjectsBackground {
+    background-color:white;
+}
+
+.contactBackground{
+    background-color:#507070;
+}
+
+.jumbotron{
+    background-color: white;
+    opacity:0.5;
+}
+
+div.project {
+    background-color:rgba(0,0,0,.6);
+    border-radius:1em;
+    height:350px;
+    margin-top:100px;
+    font-family: Julius Sans One;
+    
+
+}
+
+.title {
+    font-size:36px;
+    color:white;
+}
+
+.description {
+    font-size:20px;
+    color:#BDBBBB;
+
+}
+
+.project-page {
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color:#a79596
+}
+
+.menu a{
+    background-color:rgba(88,88,88,0.6);
+    padding: 6px;
+}
+
+
+.navbar-inverse {
+    background-color: #030327;
+    opacity: 0.8;
+}
+
+.nav > li > a {
+    color: grey;
+    font-size:25px
+}
+
+
+
+.contactIcons{
+    border-radius:50%;
+    width: 170px;
+    height:170px;
+    background-color:white;
+    border:10px solid silver;
+    opacity:1;
+}
+
+.emailDescript{
+    font-size:20px;
+}
+.phoneDescript{
+    font-size:20px;
+}
+
+.contactIcons:hover{
+    border-color:indianred;
+}
+
+.nav > li > a:hover {
+    color: white;
+    background-color: #030327;
+}
+
+.socialmedia {
+    /*border-top: 2px solid white;*/
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+.email {
+    background-image: url('Images/transMail.png');
+
+}
+
+.contact-line {
+    border: 1px solid white;
+    opacity:0.8;
+}
+
+#box:hover #overlay {
+    opacity:1;
+}
+
+
+@media(min-width:768px) {
+    .nav > li {
+        display: inline-block;
+    }
+}
+
+@media(max-width: 500px) {
+    h1.homeH1 {
+        font-size: 40px;
+    }
+}
+
+
+
+@media(max-width: 768px) {
+    img[src*="github"] {
+        width: 100px;
+    }
+}
+
+
