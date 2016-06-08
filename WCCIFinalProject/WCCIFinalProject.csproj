@@ -164,6 +164,7 @@
     <Content Include="Content\Images\AboutMePhoto.jpg" />
     <Content Include="Content\Images\BankingShot.PNG" />
     <Content Include="Content\Images\Contacts.jpg" />
+    <Content Include="Content\Images\contaktPH.jpg" />
     <Content Include="Content\Images\editedBack.jpg" />
     <Content Include="Content\cover.css" />
     <Content Include="Content\Images\FortuneShot.PNG" />
@@ -232,6 +233,7 @@
     <Content Include="Views\ProjectDatas\Details.cshtml" />
     <Content Include="Views\ProjectDatas\Edit.cshtml" />
     <Content Include="Views\ProjectDatas\Index.cshtml" />
+    <Content Include="Views\Home\temp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

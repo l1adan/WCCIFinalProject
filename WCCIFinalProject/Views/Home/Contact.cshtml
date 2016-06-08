@@ -5,7 +5,7 @@
 <h3>@ViewBag.Message</h3>*@
 
 
-<body class="contactBackground text-center"></body>
+<body class="contactBackground text-center" style="background-color:cadetblue"></body>
 
 <div class="container-fluid text-center">
     <nav class="navbar navbar-inverse">
@@ -47,24 +47,32 @@
    @* Contact Links *@
 <div class="container socialmedia">
 
-        <div class="col-md-3">
+        <div class="col-md-3 gitHub">
 
             <a href="https://github.com/l1adan" target="_blank">
                 <img class="contactIcons" src="~/Content/Images/git.png" />
+                <p class="contactP">GitHub</p>
+            </a>
+            @*<a href="https://www.github.com/l1adan" class="gitDescript" target="_blank">
+                <p class="gitDescript">Github</p>*@
             </a>
        </div>
-       <div class="col-md-3">
-           <img class="contactIcons" src="~/Content/Images/transMail.png" />
-           <p class="emailDescript">lladanscott@gmail.com</p class="email">
+       <div class="col-md-3 email">
+           <a href="mailto:Scott.Ladan@gmail.com" class="email-img">
+               <img width="115"class="contactIcons email-img" src="~/Content/Images/transMail.png" />
+               <p class="contactP">Scott.Ladan@gmail.com</p>
+           </a>
+          
        </div>
        <div class="col-md-3">
            <a href="https://www.linkedin.com/in/scottladan" target="_blank">
                 <img class="contactIcons" src="~/Content/Images/linkedInIcon.png" />
+               <p class="contactP">LinkedIn</p>
            </a>
       </div> 
       <div class="col-md-3">
           <img class="contactIcons" src="~/Content/Images/phone.png" />
-          <p class="phoneDescript">216-904-5726</p>
+          <p class="contactP">216-904-5726</p>
       </div>
 
        </div>

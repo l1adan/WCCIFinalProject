@@ -5,13 +5,13 @@
 }
 
 
-<body class="ProjectsBackground">
-   
-        @*<p>
-            @Html.ActionLink("create new", "create")
-        </p>*@
+<body class="ProjectsBackground"></body>
 
-       
+@*<p>
+        @Html.ActionLink("create new", "create")
+    </p>*@
+
+
 
     <div class="container-fluid text-center">
         <nav class="navbar navbar-inverse">
@@ -40,44 +40,47 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-        </div>
+    </div>
 
 
-        <div class="container" style="overflow: hidden">
+    <div class="container" style="overflow: hidden">
 
 
-            @foreach (var item in Model)
+        @foreach (var item in Model)
             {
-                <div class="project">
-                    <div class="col-sm-offset-3 col-sm-9 title">@item.ProjectName</div>
+            <div class="project">
+                <div class="col-sm-offset-3 col-sm-9 title">@item.ProjectName</div>
 
-                    <div class="col-sm-2">
+                <div class="col-sm-2">
 
-                        <a target="_blank" href="@item.GitHub">
+                    <a target="_blank" href="@item.GitHub">
                         <img class="img-responsive" src="~/Content/Images/Octocat.png" />
-                        </a>
-
-                    </div>
-                    <div class="col-sm-5">
-                        <img class="img-responsive" src="@item.ImageLink" />
-
-                    </div>
-                    <div class="col-sm-5 description">
-                        <p>@item.ProjectDescription</p>
-                    </div>
-
-                    @*@Html.DisplayFor(modelItem => item.Language)*@
-
-                    @*@Html.DisplayFor(modelItem => item.Collaborators)*@
-
-                    @*@Html.ActionLink("Edit", "Edit", new { id = item.ProjectID })
-                        @Html.ActionLink("Details", "Details", new { id = item.ProjectID })
-                        @Html.ActionLink("Delete", "Delete", new { id = item.ProjectID })*@
-
+                    </a>
 
                 </div>
+                <div class="col-sm-5">
+                    <img class="img-responsive" src="@item.ImageLink" />
 
-            }
+                </div>
+                <div class="col-sm-5 description">
+                    <p>@item.ProjectDescription</p>
+                </div>
+
+                @*@Html.DisplayFor(modelItem => item.Language)*@
+
+                @*@Html.DisplayFor(modelItem => item.Collaborators)*@
+
+                @*@Html.ActionLink("Edit", "Edit", new { id = item.ProjectID })
+                    @Html.ActionLink("Details", "Details", new { id = item.ProjectID })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ProjectID })*@
+
+
+            </div>
+           
+        
+
+
+        }
 
 
 

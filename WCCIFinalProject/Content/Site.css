@@ -45,8 +45,11 @@ a {
 
  .section{
      margin-top:75px;
-     padding-right:10%;
+     /*padding-right:*/
      color:white;
+     
+ 
+
 }
  
 
@@ -63,6 +66,7 @@ a {
  .contactH1{
      font-size:65px;
      font-family:Julius Sans One;
+     color: black;
      
  }
 
@@ -88,6 +92,7 @@ div.cover.inner {
 .aboutContain{
     /*border-bottom:1px solid white;*/
     margin-top:5%;
+    
 }
 
 .aboutContain p {
@@ -116,19 +121,38 @@ div.about.inner {
 /* ABOUT PAGE */
 
 .aboutBackground {
-    
-    background-image: url('Images/about.jpg');
+    background-image: url('Images/AboutN.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
+/*.aboutParagraphs{
+    background-color:black;
+    opacity:0.9;
+}*/
+
 .ProjectsBackground {
-    background-color:white;
+    background-image: url('Images/blurred.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /*left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+ -ms-filter: blur(5px);
+  filter: blur(5px);*/
+}
+
 }
 
 .contactBackground{
-    background-color:#507070;
+    background-color:black;
 }
 
 .jumbotron{
@@ -137,14 +161,13 @@ div.about.inner {
 }
 
 div.project {
-    background-color:rgba(0,0,0,.6);
+    background-color:rgba(0,0,0,.7);
     border-radius:1em;
     height:350px;
     margin-top:100px;
     font-family: Julius Sans One;
-    
-
 }
+
 
 .title {
     font-size:36px;
@@ -185,22 +208,30 @@ div.project {
 
 .contactIcons{
     border-radius:50%;
-    width: 170px;
-    height:170px;
-    background-color:white;
-    border:10px solid silver;
-    opacity:1;
+    width: 130px;
+    height:130px;
+    border:8px solid black;
 }
 
-.emailDescript{
-    font-size:20px;
+.email-address, .gitDescript {
+    display:none;
+    text-decoration:none;
+
 }
+.contactP{
+    font-size:20px;
+    color:black;
+}
+
+
 .phoneDescript{
     font-size:20px;
 }
 
 .contactIcons:hover{
-    border-color:indianred;
+    opacity:0.8;
+    
+    
 }
 
 .nav > li > a:hover {
